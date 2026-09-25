@@ -196,5 +196,39 @@
     ],
     "source": "an-khang-hanh-phuc-cao-cap.md",
     "supporting_section": "Điểm 9.3.6.2"
+  },
+  {
+    "id": "golden-019",
+    "category": "paraphrase",
+    "question": "Sau khi nhận hợp đồng chương trình Cơ bản, khách hàng có bao nhiêu ngày để đổi ý và ngừng tham gia bảo hiểm?",
+    "expected_answer": "Khách hàng có 21 ngày kể từ ngày nhận được Hợp đồng để thông báo bằng văn bản về việc không tiếp tục tham gia, với điều kiện chưa xảy ra sự kiện bảo hiểm hoặc chưa có yêu cầu giải quyết quyền lợi bảo hiểm.",
+    "expected_context": [
+      "## Điều 27: Thời gian cân nhắc Trong vòng 21 ngày kể từ ngày nhận được Hợp đồng, nếu chưa xảy ra sự kiện bảo hiểm hoặc chưa có yêu cầu giải quyết quyền lợi bảo hiểm, Bên mua bảo hiểm có thể từ chối tiếp tục tham gia bảo hiểm bằng cách thông báo bằng văn bản cho Bảo Việt Nhân thọ. Hợp đồng sẽ bị huỷ và Bên mua bảo hiểm được hoàn lại số Phí bảo hiểm đã đóng (không có lãi) trừ đi Phí kiểm tra sức khỏe (nếu có). Bảo Việt Nhân thọ không chịu trách nhiệm bảo hiểm đối với các rủi ro đã phát sinh đối với Người được bảo hiểm kể từ Ngày hiệu lực Hợp đồng. 27 Bảo Việt Nhân thọ"
+    ],
+    "source": "an-khang-hanh-phuc-co-ban.md",
+    "supporting_section": "Điều 27"
+  },
+  {
+    "id": "golden-020",
+    "category": "temporal_reasoning",
+    "question": "Hợp đồng chương trình Cơ bản đã chấm dứt hiệu lực được 25 tháng thì Bên mua bảo hiểm còn thời hạn yêu cầu khôi phục không?",
+    "expected_answer": "Không. Yêu cầu khôi phục phải được gửi trong vòng 24 tháng kể từ ngày Hợp đồng chấm dứt hiệu lực và trước Ngày đáo hạn Hợp đồng; 25 tháng đã vượt quá thời hạn này.",
+    "expected_context": [
+      "a) Bên mua bảo hiểm yêu cầu khôi phục hiệu lực Hợp đồng trong vòng 24 tháng kể từ ngày Hợp đồng chấm dứt hiệu lực và trước Ngày đáo hạn Hợp đồng;"
+    ],
+    "source": "an-khang-hanh-phuc-co-ban.md",
+    "supporting_section": "Điểm 29.1.a"
+  },
+  {
+    "id": "golden-021",
+    "category": "multi_chunk_scenario",
+    "question": "Nếu Người được bảo hiểm đột tử trong thời gian gia hạn đóng phí của chương trình Cơ bản thì có được hưởng quyền lợi bảo hiểm không?",
+    "expected_answer": "Có thể được giải quyết Quyền lợi bảo hiểm tử vong nếu sự kiện xảy ra trong thời gian gia hạn đóng phí, vì hợp đồng chỉ tự động chấm dứt ngay sau khi thời gian gia hạn kết thúc nếu phí cần thiết vẫn chưa được đóng đủ. Việc chi trả còn phụ thuộc hợp đồng đang có hiệu lực, các điều kiện và loại trừ áp dụng; số tiền được trả sẽ trừ Khoản nợ nếu có.",
+    "expected_context": [
+      "#### 9.1.3. Nếu Người được bảo hiểm tử vong khi Hợp đồng đang có hiệu lực, Bảo Việt Nhân thọ trả Quyền lợi bảo hiểm tử vong dưới đây trừ đi Khoản nợ (nếu có):",
+      "### 16.2. Nếu Phí bảo hiểm cần thiết không được đóng đủ theo yêu cầu của Bảo Việt Nhân thọ trong thời gian gia hạn đóng phí quy định tại Khoản 16.1, Hợp đồng và Sản phẩm bổ trợ (nếu có) sẽ tự động chấm dứt hiệu lực ngay sau khi kết thúc thời gian gia hạn đóng phí. Bảo Việt Nhân thọ sẽ thông báo cho Bên mua bảo hiểm nhận Giá trị hoàn lại (nếu có) xác định tại thời điểm Hợp đồng chấm dứt hiệu lực, trừ đi Khoản nợ (nếu có). Nếu chưa nhận Giá trị hoàn lại (nếu có), Bên mua bảo hiểm có thể yêu cầu khôi phục hiệu lực hợp đồng theo quy định tại Điều 29."
+    ],
+    "source": "an-khang-hanh-phuc-co-ban.md",
+    "supporting_section": "Điểm 9.1.3 và Khoản 16.2"
   }
 ]
